@@ -8,9 +8,9 @@ public class Exercise05 {
 
         System.out.println("Solve ax + b = 0");
         System.out.print("Please enter a: ");
-        int a = scanner.nextInt();
+        double a = scanner.nextDouble();
         System.out.print("Please enter b: ");
-        int b = scanner.nextInt();
+        double b = scanner.nextDouble();
 
 
         if (a == 0){
@@ -20,7 +20,7 @@ public class Exercise05 {
                 System.out.println("This equation has no solution");
             }
         } else {
-            String solveForX = (b == 0) ? "x = 0" : "x = " + (double)-b/a;
+            String solveForX = (b == 0) ? "x = 0" : "x = " + -b/a;
             System.out.println(solveForX);
         }
         scanner.close();
