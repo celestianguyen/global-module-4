@@ -20,11 +20,8 @@ public class Exercise05 {
                 System.out.println("This equation has no solution");
             }
         } else {
-            if (b == 0){
-                System.out.println("x = 0");
-            } else {
-                System.out.println("x = " + (double)-b/a);
-            }
+            String solveForX = (b == 0) ? "x = 0" : "x = " + (double)-b/a;
+            System.out.println(solveForX);
         }
         scanner.close();
     }
