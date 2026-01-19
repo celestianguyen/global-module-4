@@ -15,7 +15,7 @@ public class Exercise05 {
 
         if (a == 0){
             if (b == 0){
-                System.out.println("x = 0");
+                System.out.println("x has indefinite solutions");
             } else {
                 System.out.println("This equation has no solution");
             }
