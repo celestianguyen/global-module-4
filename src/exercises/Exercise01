@@ -1,0 +1,15 @@
+Calculate Boolean Values
+Problem
+Calculate the values of variables c and d:
+boolean a = true && false;
+boolean b = (3 > 100) || (25 % 5 == 0);
+boolean c = a && b;
+boolean d = !a || b;
+Goal
+Practice working with boolean variables and logical operators in Java.
+
+Answer:
+a = false
+b = true
+c = false
+d = true
